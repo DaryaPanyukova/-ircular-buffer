@@ -1,0 +1,5 @@
+if(EXISTS "D:/ITMOlabs/basics_c++/labwork-8-DaryaPanyukova/cmake-build-debug/tests/buffer_tests[1]_tests.cmake")
+  include("D:/ITMOlabs/basics_c++/labwork-8-DaryaPanyukova/cmake-build-debug/tests/buffer_tests[1]_tests.cmake")
+else()
+  add_test(buffer_tests_NOT_BUILT buffer_tests_NOT_BUILT)
+endif()
